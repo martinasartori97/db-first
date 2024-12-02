@@ -2,22 +2,22 @@
 Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
 
 # Table name
-veicoli_usati
+ - Veicoli_usati
 
 # Table structure
-- Marca
-- Modello
-- ID
-- Anno
-- Data_acquisto
-- Colore
-- Chilometraggio
-- Prezzo
-- Carburante
-- Potenza_cv
-- Cambio
-- Tipologia
-- Numero_porte
-- Numero_posti
-- Foto_veicolo
-- Garanzia
+- ID | BIGINT - AUTO INCREMENT - PK(UNIQUE) - NOT NULL
+- Marca | VARCHAR(20) -  NOT NULL
+- Modello | VARCHAR(40) - NOT NULL
+- Anno | YEAR NOT NULL
+- Data_acquisto | DATE NOT NULL
+- Colore | VARCHAR(20)
+- Chilometraggio | INT
+- Prezzo | DECIMAL(10,2)
+- Carburante | VARCHAR(15)
+- Potenza_cv | INT
+- Cambio | VARCHAR(15)
+- Tipologia | VARCHAR (50)
+- Numero_porte | INT
+- Numero_posti | INT
+- Foto_veicolo | VARCHAR(260)
+- Garanzia | 
