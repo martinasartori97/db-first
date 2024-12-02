@@ -10,7 +10,7 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - Modello | VARCHAR(40) - NOT NULL
 - Anno | YEAR NOT NULL
 - Data_acquisto | DATE NOT NULL
-- Colore | VARCHAR(20)
+- Colore | VARCHAR(20) NULL
 - Chilometraggio | INT
 - Prezzo | DECIMAL(10,2)
 - Carburante | VARCHAR(15)
@@ -19,5 +19,5 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - Tipologia | VARCHAR (50)
 - Numero_porte | INT
 - Numero_posti | INT
-- Foto_veicolo | VARCHAR(260)
-- Garanzia | 
+- Foto_veicolo | VARCHAR(260) 
+
