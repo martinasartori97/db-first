@@ -8,3 +8,16 @@ veicoli_usati
 - Marca
 - Modello
 - ID
+- Anno
+- Data_acquisto
+- Colore
+- Chilometraggio
+- Prezzo
+- Carburante
+- Potenza_cv
+- Cambio
+- Tipologia
+- Numero_porte
+- Numero_posti
+- Foto_veicolo
+- Garanzia
