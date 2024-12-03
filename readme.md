@@ -16,9 +16,9 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - Carburante | VARCHAR(15)
 - Potenza_cv | INT
 - Cambio | VARCHAR(15)
-- Tipologia | VARCHAR (50)
 - Numero_porte | INT
 - Numero_posti | INT
 - Foto_veicolo | VARCHAR(260) 
 - garanzia | BOOLEAN
+- DISPONIBILITA' | TINYINT | DEFAULT(0)
 
