@@ -20,4 +20,5 @@ Modellare la struttura di una tabella per memorizzare tutti i dati riguardanti d
 - Numero_porte | INT
 - Numero_posti | INT
 - Foto_veicolo | VARCHAR(260) 
+- garanzia | BOOLEAN
 
